@@ -1,16 +1,17 @@
-main {
-  background-color:#136F4C;
-}
-
 body {
   font-family: "Indie Flower", system-ui;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
+  background-color:#136F4C;
+  color:#15caa3;
 }
 
 h1, h2 {
   font-family: "Shadows Into Light Two", system-ui;
   font-weight: 400;
   font-style: normal;
-  color:#7A82AB ;
+  color:#1F2041;
+}
+* {
+  text-decoration: none;
 }
