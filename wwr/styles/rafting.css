@@ -1,4 +1,4 @@
-:root {
+main {
   background-color:#136F4C;
 }
 
@@ -12,5 +12,5 @@ h1, h2 {
   font-family: "Shadows Into Light Two", system-ui;
   font-weight: 400;
   font-style: normal;
-  accent-color:#7A82AB ;
+  color:#7A82AB ;
 }
