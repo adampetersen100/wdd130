@@ -13,13 +13,9 @@ h1, h2 {
   color:#1F2041;
 }
 
-h1 {
-  position: absolute;
-}
-
 article {
-  position: absolute;
-  color:#868af7
+  color: #9F1B19;
+  background-color:#868af7;
 }
 
 * {
@@ -30,6 +26,11 @@ body {
   margin: auto;
   border: 3px solid #73AD21;
 }
+
+p {
+  font-size: 25px;
+}
+
 .hero img {
   display: block;
   width: 100%;
