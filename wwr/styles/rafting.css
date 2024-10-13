@@ -70,7 +70,7 @@ mark {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 200px, 400px, 200px;
+  grid-template-columns: 200px 400px 200px;
   grid-gap: 30px;
   background-color:#15caa3;
   padding: 30px;
