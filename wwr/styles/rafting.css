@@ -14,11 +14,11 @@ h1, h2 {
   font-family: "Shadows Into Light Two", system-ui;
   font-weight: 400;
   font-style: normal;
-  color:#1F2041;
+  color:#9F1B19;
 }
 
 article {
-  color: #9F1B19;
+  color:#1F2041;
   background-color:#868af7;
 }
 
@@ -51,7 +51,7 @@ article img {
 mark {
   background-color:#7A82AB;
   font-size: 25px;
-  color:#9F1B19;
+  color:#1F2041;
 }
 
 .flexbox-container {
