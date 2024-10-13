@@ -1,8 +1,12 @@
+:root {
+  background-color:#136F4C;
+}
+
 body {
   font-family: "Indie Flower", system-ui;
   font-weight: 500;
   font-style: normal;
-  background-color:#136F4C;
+  background-color:#ffffff;
   color:#15caa3;
 }
 
@@ -31,18 +35,17 @@ p {
   font-size: 25px;
 }
 
-.hero img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .hero div {
-  position: relative;
+  display: block;
+  width: 800px;
+  height: auto;
+  position: absolute;
 }
 
 article img {
   float: right;
+  margin-left: 15px;
+  margin-bottom: 15px;
 }
 
 mark {
@@ -65,3 +68,14 @@ mark {
   background-color: #ffffff;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-gap: 30px;
+  background-color:#15caa3;
+  padding: 30px;
+}
+
+nav {
+  font-size: larger;
+}
