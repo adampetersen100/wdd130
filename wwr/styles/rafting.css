@@ -7,7 +7,7 @@ body {
   font-weight: 500;
   font-style: normal;
   background-color:#ffffff;
-  color:#15caa3;
+  color:#074934a5;
   max-width: 1200px;
   margin: auto;
   border: 3px solid #73AD21;
@@ -22,7 +22,7 @@ h1, h2 {
 
 article {
   color:#1F2041;
-  background-color:#868af7;
+  background-color:#bbbdff;
 }
 
 * {
@@ -53,7 +53,7 @@ article img {
 
 mark {
   display: flex;
-  background-color:#7A82AB;
+  background-color:#1F2041;
   font-size: 25px;
   color:#ffffff;
   justify-content: center;
@@ -97,7 +97,7 @@ header {
   height:100px;
 }
 
-figure {
+.img-container {
   border: thin #c0c0c0 solid;
   display: flex;
   flex-flow: row;
@@ -109,18 +109,23 @@ figure {
   gap: 10px
 }
 
+.img-container h2 {
+  font-size: 120px;
+}
+
 figcaption {
   display: flex;
   flex: 1;
   color:#9F1B19;
   font-size: 125%;
   padding: 15px;
+  justify-content: center;
 }
 
 section img {
   display: flex;
-  width: 150px;
-  height: 100px;
+  width: 300px;
+  height: 200px;
 }
 
 footer  nav {
