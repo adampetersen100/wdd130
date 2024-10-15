@@ -150,9 +150,10 @@ footer  nav {
   justify-content: center;
   padding-top: 100px;
 }
-form {
+.user-info {
   display: flex;
   flex-direction: column;
+  max-width: 375px;
 }
 
 .img-container2 {
@@ -164,4 +165,31 @@ form {
   margin: auto;
   flex: 1;
   justify-content: space-evenly;
+}
+.reason {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+form p {
+  font-size: 30px;
+}
+
+textarea {
+  display: flex;
+  margin-top: 20px
+}
+
+.submit {
+  background-color: #0061b6;
+  color: #ffffff;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+form div{
+  margin: 20px;
 }
