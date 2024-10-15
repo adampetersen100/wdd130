@@ -66,6 +66,11 @@ header {
   font-size: 30px;
 }
 
+.nav {
+  display: flex;
+  gap: 35px;
+}
+
 .logo {
   display: flex;
   align-content: center;
@@ -98,30 +103,30 @@ figure {
   flex-flow: row;
   flex-wrap: wrap;
   padding: 1px;
-  max-width: 500px;
   margin: auto;
+  flex: 1;
+  justify-content: center;
+  gap: 10px
 }
 
 figcaption {
+  display: flex;
+  flex: 1;
   color:#9F1B19;
-  font-size: 175%;
-  padding: 28px;
-  text-align: center;
+  font-size: 125%;
+  padding: 15px;
 }
 
 section img {
-  width: 200px;
-  height: 150px;
+  display: flex;
+  width: 150px;
+  height: 100px;
 }
 
 footer  nav {
-  height: 200px;
-  display: grid;
-  grid-template-columns: 40% 15% 15% 15% 5%;
-  grid-template-rows: 100%;
+  display: flex;
+  flex-direction: row-reverse;
 }
-
-
 
 .sm_insta {
   width: 50px;
