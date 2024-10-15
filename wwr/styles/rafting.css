@@ -144,3 +144,24 @@ footer  nav {
 .sm_fb {
   width: 50px;
 }
+
+.emp-intro {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container2 {
+  border: #000 solid;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  padding: 1px;
+  margin: auto;
+  flex: 1;
+  justify-content: space-evenly;
+}
