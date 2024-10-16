@@ -193,3 +193,22 @@ textarea {
 form div{
   margin: 20px;
 }
+
+.email {
+  display: flex;
+  justify-content: center;
+}
+
+h2.email {
+  font-size: 35px;
+}
+
+.lower-headers {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.lower-headers h2 {
+  text-align: center;
+}
