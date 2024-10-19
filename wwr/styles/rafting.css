@@ -261,3 +261,9 @@ input.checkbox {
   clear: none;
   margin: 4px 7px 3px;
 }
+
+.frame {
+  display: flex;
+  justify-content: right;
+  
+}
