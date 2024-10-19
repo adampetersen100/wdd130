@@ -254,3 +254,10 @@ input.radio {
   display: flex;
   justify-content: center;
 }
+
+input[type=checkbox],
+input.checkbox {
+  float: left;
+  clear: none;
+  margin: 4px 7px 3px;
+}
